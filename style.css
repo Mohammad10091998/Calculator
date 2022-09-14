@@ -1,0 +1,74 @@
+
+.boundary{
+    position: relative;
+    background-color: lightgrey;
+    height: 300px;
+    width: 380px;
+    text-align: center;
+    margin:10% auto;  
+}
+.heading{
+    position: relative;
+    color:white;
+    background-color: black;
+    height: 30px;
+    width: 360px;
+    margin:  auto;
+    top: 10px;
+    padding-top: 5px;
+}
+#white-space{
+    position: relative;
+    color:black;
+    background-color: white;
+    height: 45px;
+    width: 360px;
+    margin:  auto;
+    top: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    overflow: hidden;
+}
+#white-space div{
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+}
+.grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightgrey;
+    top:30px;
+    width: 360px;
+    margin:auto;
+    
+}
+.grid div{
+    margin:2px;
+    background-color: white;
+    font-size: larger;
+    padding: 4px;
+}
+.grid div:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(60, 57, 57);
+}
+.operator{
+    color:white;
+    background-color: rgb(161, 82, 82) !important;
+}
+#percent{
+    color:black;
+    background-color: white !important;
+}
+#equal{
+    color:white;
+    background-color: rgb(161, 82, 82) !important; 
+}
+
+#zero{
+    grid-column: 1/3;
+}
